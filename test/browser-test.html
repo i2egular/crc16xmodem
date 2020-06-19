@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser test</title>
+</head>
+<body>
+    <h3>Please check in browser console</h3>
+    <script src="../dist/bundle.js"></script>
+    <script>
+        // Should return type object
+        console.log(typeof crc16xmodem);
+        const result = crc16xmodem.validateChecksum('00020101021129370016A000000677010111011300660000000005802TH530376463048956');
+        console.log('CHECKSUM', result);
+    </script>
+</body>
+</html>

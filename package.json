@@ -1,0 +1,19 @@
+{
+  "name": "crc16-xmodem",
+  "version": "1.0.0",
+  "description": "crc16 xmodem derived from pycrc16 for node.js / browser",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "rollup --format=umd --name=crc16xmodem  --file=dist/bundle.js -- index.js"
+  },
+  "keywords": [
+    "crc16",
+    "xmodem",
+    "pycrc16",
+    "nodejs"
+  ],
+  "author": "Kan Aruncharathorn",
+  "license": "ISC",
+  "dependencies": {}
+}
